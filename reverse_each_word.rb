@@ -8,7 +8,7 @@ def reverse_each_word (str)
     index +=1
   end
   ary2.collect do |dorw|
-    rev_str.concat(dorw)
+    rev_str.concat("#{dorw} ")
   end
   rev_str
 end
